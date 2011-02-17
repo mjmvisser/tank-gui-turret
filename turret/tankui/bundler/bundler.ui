@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>BundlerWindow</class>
+ <widget class="QMainWindow" name="BundlerWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <property name="margin">
+     <number>0</number>
+    </property>
+    <item>
+     <widget class="AssetsWindow" name="_assetsWindow" native="true"/>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="_menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="_tankMenu">
+    <property name="title">
+     <string>&amp;File</string>
+    </property>
+    <addaction name="_newBundleAction"/>
+    <addaction name="_openBundleAction"/>
+    <addaction name="_saveBundleAction"/>
+    <addaction name="_saveBundleAsAction"/>
+    <addaction name="separator"/>
+    <addaction name="_setProjectAction"/>
+    <addaction name="separator"/>
+    <addaction name="_quitAction"/>
+   </widget>
+   <addaction name="_tankMenu"/>
+  </widget>
+  <action name="_setProjectAction">
+   <property name="text">
+    <string>&amp;Set Project...</string>
+   </property>
+  </action>
+  <action name="_openBundleAction">
+   <property name="text">
+    <string>&amp;Open...</string>
+   </property>
+  </action>
+  <action name="_quitAction">
+   <property name="text">
+    <string>&amp;Quit</string>
+   </property>
+  </action>
+  <action name="_newBundleAction">
+   <property name="text">
+    <string>&amp;New</string>
+   </property>
+  </action>
+  <action name="_saveBundleAction">
+   <property name="text">
+    <string>&amp;Save</string>
+   </property>
+  </action>
+  <action name="_saveBundleAsAction">
+   <property name="text">
+    <string>Save &amp;As...</string>
+   </property>
+  </action>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>AssetsWindow</class>
+   <extends>QWidget</extends>
+   <header>..assets</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>_quitAction</sender>
+   <signal>activated()</signal>
+   <receiver>BundlerWindow</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>-1</x>
+     <y>-1</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>399</x>
+     <y>299</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>

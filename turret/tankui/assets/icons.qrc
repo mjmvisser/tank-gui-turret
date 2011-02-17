@@ -1,0 +1,21 @@
+ <!DOCTYPE RCC><RCC version="1.0">
+ <qresource>
+     <file>images/refresh.png</file>
+     <file>images/plus.png</file>
+     <file>images/minus.png</file>
+     <file>images/gear.png</file>
+     <file>images/red_disc.png</file>
+     <file>images/red_halfdisc.png</file>
+     <file>images/green_disc.png</file>
+     <file>images/green_halfdisc.png</file>
+     <file>images/yellow_disc.png</file>
+     <file>images/yellow_halfdisc.png</file>
+     <file>images/hollow_disc.png</file>
+     <file>images/question_disc.png</file>
+     <file>images/pencil.png</file>
+     <file>images/filter_all.png</file>
+     <file>images/filter_working.png</file>
+     <file>images/filter_revisions.png</file>
+     <file>images/filter_other.png</file>
+ </qresource>
+ </RCC>

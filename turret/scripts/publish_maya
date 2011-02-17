@@ -1,0 +1,3 @@
+#!/bin/bash
+
+exec lmayapy `which publish.py`

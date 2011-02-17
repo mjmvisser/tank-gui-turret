@@ -1,0 +1,13 @@
+ <!DOCTYPE RCC><RCC version="1.0">
+ <qresource>
+     <file>images/tank.png</file>
+     <file>images/file.png</file>
+     <file>images/shotgun.png</file>
+     <file>images/folder.png</file>
+     <file>images/label.png</file>
+     <file>images/container.png</file>
+     <file>images/container_hollow.png</file>
+     <file>images/revision.png</file>
+     <file>images/revision_hollow.png</file>
+ </qresource>
+ </RCC>
